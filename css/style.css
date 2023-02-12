@@ -1,0 +1,90 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.block{
+	width: 900px;
+	margin: 0px auto;
+	background-color: white;
+	padding: 20px;
+
+}
+body{
+	background: url("https://cdn.eksmo.ru/v2/ITD000000001265012/COVER/cover1__w600.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed ;
+}
+img{
+	width: 100%;
+}
+.flex{
+	display: flex;
+}
+main{
+width: 600px;
+}
+aside{
+width: 300px;
+padding-left: 20px ;
+
+}
+.img{
+	width: 200px;
+	margin: 10px auto;
+}
+.box{
+
+}
+.css{
+	list-style: circle;
+	margin: 20px 50px ;
+}
+.menu{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+margin-bottom: 30px;
+border-bottom: 2px solid grey;
+}
+.menu a{
+	text-decoration: none;
+	padding: 0px 10px;
+	background-color: grey;
+	color: white;
+	display: block;
+	line-height: 30px;
+	transition: 1s ease;
+	border: 1px solid grey;
+	text-transform: uppercase;
+}
+.menu a:hover{
+background-color: white;
+color: grey;
+
+}
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: grey;
+	height: 50px;
+	align-items: center;
+}
+iframe{
+	margin: 20px auto;
+
+}
+h3{
+	text-align: center;
+	background-color: grey ;
+	color: white;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+h1,h2{
+	margin: 30px;
+}
+p{
+	text-align: justify;
+}
