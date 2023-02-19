@@ -100,3 +100,28 @@ p{
 color: mediumvioletred;
 text-decoration: underline;
 }
+form{
+	border-radius: 15px;
+	border: 2px solid grey;
+	width: 400px;
+	margin: 20px auto;
+padding: 20px;
+}
+input{
+	width: 100%;
+}
+input[type=text]{
+	padding: 15px;
+	margin: 5px 0px 20px 0px;
+}
+input[type=submit]{
+	padding: 10px ;
+	background-color: darkgrey;
+	border-radius: 10px;
+	border: none;
+}
+input[type=submit]:hover{
+	background-color: grey;
+	color: white;
+	cursor: pointer;
+}
